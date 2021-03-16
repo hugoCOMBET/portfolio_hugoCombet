@@ -1,0 +1,288 @@
+body{
+    font: italic 1.2em "Fira Sans",serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(198, 198, 198, 0.35);
+}
+
+h2{
+    text-align: center;
+    background-color: white;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(0, 0, 0,1);
+}
+
+nav > ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav > ul::after{
+    content: "";
+    display :block;
+    clear: both;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: white;
+}
+
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+    color: white;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.accueil-html:hover{
+    border-top: 5px solid white;
+    background-color:black;
+}
+
+.competences-html:hover{
+    border-top: 5px solid white;
+    background-color:black;
+}
+
+.mesrealisations-html:hover{
+    border-top: 5px solid white;
+    background-color:black;
+}
+
+.veilletechno-html:hover{
+    border-top: 5px solid white;
+    background-color:black;
+
+}
+
+.contact-html:hover{
+    border-top: 5px solid white;
+    background-color:black;
+}
+
+.HautPage{
+    display: block;
+    position: fixed;
+    bottom:1%;
+    margin-left:97%;
+}
+
+#entete, #menu, #contenu, #footer {
+    padding:1px 0;
+}
+
+#main {
+    max-with:60%;
+    margin-left:3%;
+    background-image:url(image/hugo.png);
+    background-repeat: no-repeat;
+}
+
+#contenu {
+    margin-left:25%;
+    min-height:75%;
+    text-align: center;
+    margin-top: 25vh;
+    background-color: #eee;
+    border: 2px solid rgba(0, 0, 0, 0.54);
+}
+
+
+
+.HautDePage{
+    position:fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+.Titre{
+    position:fixed;
+    width: 100%;
+}
+
+.Images{
+    min-height:100%;
+    width:98%;
+    margin: 1%;
+}
+
+.container {
+    border: 2px solid rgba(0, 0, 0, 0.54);
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10% / 50%;
+}
+
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+
+.Images2{
+    min-height:100%;
+    width:98%;
+    margin: 1%;
+}
+
+
+.container2 {
+    border: 2px solid rgba(0, 0, 0, 0.54);
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container2 img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container2 span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .container2 {
+        text-align: center;
+    }
+    .container2 img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+
+.button {
+    background-color: #fe7200;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 2%;
+    cursor: pointer;
+    border-radius:8px;
+}
+
+.box{
+    width:80%;
+    padding:5%;
+}
+
+#cv {
+    float:left;
+    width:45%;
+    margin-left:25%;
+}
+
+#contact {
+    margin-left:25%;
+}
+
+.btn-abc{
+    background-color: white; /* Green */
+    border: none;
+    color: #ff0003;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
+
+@keyframes filling {
+    from{
+        background-position: center 25%;
+    }
+    to {
+        background-position: center 50%;
+    }
+}
+.container-text {
+    background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:  #FFFFFF;
+    font-size:250%;
+    font-family: 'Bungee', cursive;
+    animation: filling 3s ease forwards;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
