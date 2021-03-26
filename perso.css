@@ -94,14 +94,11 @@ nav li:hover .submenu{
 
 #entete, #menu, #contenu, #footer {
     padding:1px 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
-#main {
-    max-with:60%;
-    margin-left:3%;
-    background-image:url(image/hugo.png);
-    background-repeat: no-repeat;
-}
+
 
 #contenu {
     margin-left:25%;
@@ -224,6 +221,19 @@ nav li:hover .submenu{
     border-radius:8px;
 }
 
+.button2 {
+    background-color: #5882fe;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 2%;
+    cursor: pointer;
+    border-radius:8px;
+}
+
 .box{
     width:80%;
     padding:5%;
@@ -232,11 +242,13 @@ nav li:hover .submenu{
 #cv {
     float:left;
     width:45%;
-    margin-left:25%;
+    margin-left:15%;
 }
 
-#contact {
-    margin-left:25%;
+#linkedin {
+    float:left;
+    width:45%;
+    margin-left:15%;
 }
 
 .btn-abc{
