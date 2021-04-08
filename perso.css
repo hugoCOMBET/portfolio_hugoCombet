@@ -125,7 +125,7 @@ nav li:hover .submenu{
 
 .Images{
     min-height:100%;
-    width:98%;
+    width:100%;
     margin: 1%;
 }
 
@@ -206,9 +206,20 @@ nav li:hover .submenu{
         display: block;
     }
 }
-
+.button3 {
+    background-color: #4e8cff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 2%;
+    cursor: pointer;
+    border-radius:8px;
+}
 .button {
-    background-color: #fe7200;
+    background-color: #0011fe;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -221,7 +232,7 @@ nav li:hover .submenu{
 }
 
 .button2 {
-    background-color: #5882fe;
+    background-color: #50ff50;
     color: white;
     padding: 15px 32px;
     text-align: center;
