@@ -249,6 +249,11 @@ nav li:hover .submenu{
     padding:5%;
 }
 
+.box2{
+    width:80%;
+    padding:5%;
+}
+
 #cv {
     float:left;
     width:45%;
